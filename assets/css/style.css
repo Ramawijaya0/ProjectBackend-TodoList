@@ -1,0 +1,12 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+}
+.card,
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+}

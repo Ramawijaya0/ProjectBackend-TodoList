@@ -1,18 +1,16 @@
- CREATE DATABASE todo_list;
-USE todo_list;
-
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100) UNIQUE,
-    password VARCHAR(255)
+    password VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE todos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
-    title VARCHAR(100),
-    description TEXT,
-    due_date DATE,
-    FOREIGN KEY (user_id) REFERENCES users(id)
+    title VARCHAR(255),
+    is_done BOOLEAN DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );

@@ -1,34 +1,40 @@
+/* Reset box-sizing agar semua elemen menghitung padding & border dalam ukuran total */
 * {
   box-sizing: border-box;
 }
 
+/* Atur font utama untuk seluruh halaman */
 body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Styling dasar body: background abu-abu muda + padding */
 body {
   background: #f4f4f4;
   padding: 40px;
 }
 
+/* Container utama untuk konten todo list */
 .container {
-  max-width: 500px;
-  background: #fff;
-  padding: 20px;
-  margin: auto;
-  border-radius: 8px;
+  max-width: 500px;      /* Lebar maksimal container */
+  background: #fff;      /* Background putih */
+  padding: 20px;         /* Ruang dalam */
+  margin: auto;          /* Posisi tengah */
+  border-radius: 8px;    /* Sudut membulat */
 }
 
+/* Styling umum untuk input dan button */
 input,
 button {
-  width: 100%;
-  padding: 8px;
-  margin: 6px 0;
+  width: 100%;           /* Lebar penuh */
+  padding: 8px;          /* Ruang dalam */
+  margin: 6px 0;         /* Jarak antar elemen */
 }
 
+/* Styling khusus untuk button */
 button {
-  background: #2563eb;
-  color: white;
-  border: none;
-  border-radius: 4px;
+  background: #2563eb;   /* Warna biru */
+  color: white;          /* Teks putih */
+  border: none;          /* Hilangkan border default */
+  border-radius: 4px;    /* Sudut membulat */
 }

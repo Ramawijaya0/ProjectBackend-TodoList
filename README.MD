@@ -927,6 +927,13 @@ switch ($page) {
 
 ## Identitas
 
-Nama : (Isi Nama)
-NIM : (Isi NIM)
-Matkul : Backend / Pemrograman Web
+Nama : KADEK ANINDYA RATU KENCANA
+NIM : 240030258
+
+Nama : I Putu Rama Wijaya Kusuma Putra
+NIM : 240030202
+
+Nama : Made Raka Krisnawan Maheswara
+NIM : 240030209
+
+Matkul : Backend
